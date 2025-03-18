@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 // start connection node expressJS and MongoDB 
-mongoose.connect('mongodb://localhost:27017/dd', { // link from mongodb compess click dot 3 point at database choose 'copy connection srtring' 
+mongoose.connect('mongodb://localhost:27017/kkustockphoto', { // link from mongodb compass click dot 3 point at database choose 'copy connection srtring' 
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
